@@ -1,0 +1,15 @@
+#q1
+'''year=int(input('Enter your year of birth'))
+print("You are {} years old".format(2021-year))'''
+
+
+#q2
+n1=float(input('Enter 1st number'))
+n2=float(input('Enter 2nd number'))
+print("{} + {}={}".format(n1,n2,n1+n2))
+print("{} - {}={}".format(n1,n2,n1-n2))
+print("{} * {}={}".format(n1,n2,n1*n2))
+print("{} / {}={}".format(n1,n2,n1/n2))
+print("{} // {}={}".format(n1,n2,n1//n2))
+print("{} % {}={}".format(n1,n2,n1%n2))
+print("{} ^ {}={}".format(n1,n2,n1**n2))
