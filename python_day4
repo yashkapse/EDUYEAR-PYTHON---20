@@ -1,0 +1,12 @@
+#q1
+st=input('Enter a string ')
+print(st)
+print(st.count('y'))
+
+#q2
+a=input('Enter a string ')
+print(a[0:len(a):2])
+
+#q3
+b='EdUyEaR'
+print(b.swapcase())
