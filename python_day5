@@ -1,0 +1,59 @@
+#q1
+'''n=int(input('Enter starting value'))
+m=int(input('Enter ending value'))
+for num in range(n,m,1):
+  if num%5==0 and num%7==0:
+    print(str(num))'''
+
+#q2
+'''n=5
+sum=0
+st='2'
+for i in range(1,n+1,1):
+  sum+=int(st*i)
+print(sum)'''
+
+
+#q3
+'''sum=0
+print("Enter values")
+while True:
+  n=input()
+  if n =='q':
+    break
+  sum+=int(n)
+print("sum is= {} ".format(sum))'''
+
+
+
+#q4
+'''n=int(input('Enter an integer'))
+fact = 1
+
+for i in range(1,n+1):
+	fact = fact * i
+	
+print ("The factorial of {} is : ".format(n),end="")
+print (fact)'''
+
+
+
+
+#q5
+'''st = 'python programming hello world'
+for i in range(len(st)):
+    end_value = '-'
+
+    if st[i] == ' ' or i == len(st)-1 or st[i+1] == ' ':
+        end_value = ''
+
+    if i%2 == 0:
+        print(st[i].upper(), end=end_value)
+    else:
+        print(st[i].lower(), end=end_value)
+print()'''
+
+
+
+
+
